@@ -26,3 +26,26 @@ body, html {
     width: 300px;
     text-align: center;
 }
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.dots span {
+    width: 6px;
+    height: 6px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+.dots span:first-child {
+    background-color: #666;
+}
+
+h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
