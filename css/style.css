@@ -49,3 +49,38 @@ h2 {
     color: #333;
     margin-bottom: 20px;
 }
+.payment-option {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.payment-option.selected {
+    font-weight: bold;
+    color: #333;
+}
+
+.payment-option img {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px; 
+}
+
+.payment-option span {
+    font-size: 16px;
+    line-height: 40px; 
+}
+
+.payment-option .checkmark {
+    color: #4CAF50;
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+.payment-option .disabled {
+    color: #999;
+    pointer-events: none;
+}
